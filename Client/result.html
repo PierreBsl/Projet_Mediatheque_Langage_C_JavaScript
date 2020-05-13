@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="refresh" content="0.1; URL=index.html">
+    <title>Mediatheque 3.0</title>
+    <link href="css/styles.css" rel="stylesheet">
+
+    <ul>
+        <li><a href="index.html">Mediatheque 3.0<img id="instructions" src="images/instruction.svg" alt="livre" height="40px" width="100px"></a></li>
+        <a id="power" href="end.html" ><img id="power_off" src="images/power-button-outline.svg" alt="power" height="40px" width="100px"></a>
+        <form id="search_form">
+            <select id="select_form">
+                <option selected disabled>Search by...</option>
+                <option id="author">Author</option>
+                <option id="Book name">Book name</option>
+                <option id="genre">Genre</option>
+            </select>
+            <input type="text" name="search_text" id="search_text" placeholder="Search"/>
+            <input type="submit" name="search_button" id="search_button"/>
+        </form>
+        <a id="all_books" href="list.html">Resultats de la recherche</a>
+
+    </ul>
+</head>
+
+<br>
+
+<body>
+    <div>
+        <h1>Bienvenue à la Médiathèque 3.0</h1>
+        <h4>Vous avez toujours eu envie de lire mais vous ne savez pas quel livre choisir ?? Recherchez simplement un livre par auteur, par nom, par nombre de pages, par genre ...</h4>
+
+        <br>
+        <a id="lien_books" href="list.html">Afficher la liste des Livres disponibles</a>
+    </div>
+
+    <div>
+        <h4>Sinon ajoutez tout simplement l'un de vos coups de coeur.</h4>
+        <br>
+        <a id="lien" class="btn btn-primary btn-lg" href="insert.html"> Ajoutez votre livre</a>
+    </div>
+</body>
+
+<script src="js/result.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+</html>

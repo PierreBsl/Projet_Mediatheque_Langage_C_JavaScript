@@ -1,0 +1,236 @@
+*{
+    font-family: Verdana;
+    box-sizing: border-box;
+}
+#research {
+    margin-top: 0px;
+    margin-left: 50%;
+    width: 100%;
+}
+#recherche{
+    background-color: white;
+    border: 1px solid #c7c6be;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+#recherche:hover {
+    background-color: #008CBA;
+    color: white;
+}
+#instructions{
+    margin-top: -7px;
+}
+#power_off{
+    margin-top: 7px;
+}
+#reload{
+    cursor: pointer;
+    color:dodgerblue;
+}
+#all_books:link, #all_books:visited {
+    float: right;
+    margin-right: 10%;
+    margin-top: -55px;
+    background-color: royalblue;
+    color: white;
+    padding: 14px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#all_books:hover, #all_books:active {
+    background-color: dodgerblue;
+}
+#lien_books:link, #lien_books:visited{
+    background-color: royalblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#lien_books:hover, #lien_books:active {
+    background-color: dodgerblue;
+}
+
+#lien:link, #lien:visited {
+    background-color: royalblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#lien:hover, #lien:active {
+    background-color: dodgerblue;
+}
+ul{
+    background-color: #f3f3f3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+body {
+    color:black;
+    background-color:white;
+    background-image:url(../images/books.jpg);
+    margin:0;
+}
+
+#books {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#books td, #books th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#books tr:nth-child(even){background-color: #f2f2f2;}
+
+#books tr:hover {background-color: #ddd;}
+
+#books th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+}
+#search_form{
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 50%;
+}
+#select_form{
+    width: 30%;
+}
+#search_text{
+    width: 50%;
+}
+#search_button{
+    width: 90px;
+}
+input[type=text], select{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number], select{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 12%;
+    background-color: white;
+    color: cornflowerblue;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit]:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+img{
+    float: right;
+}
+div{
+    background-color:#e5e5e5;
+    padding:15px;
+    text-align:center;
+}
+#top{
+    background-color:#e5e5e5;
+    padding:15px;
+    text-align:center;
+}
+#menu {
+    float:left;
+    width:20%;
+    text-align:center;
+}
+#menu a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:160px;
+    color:black;
+}
+#main{
+    float:left;
+    width:60%;
+    padding:0 20px;
+}
+#right{
+    background-color:#e5e5e5;
+    float:right;
+    width:20%;
+    padding:15px;
+    margin-top:0px;
+    text-align:center;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: cornflowerblue;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
